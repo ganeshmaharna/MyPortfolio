@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- scroll-up-btn start -->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <!-- scroll-up-btn end -->
+    <!-- navigation start -->
+    <header class="header ">
+        <div class="container ">
+            <div class="row justify-content-between align-items-center ">
+                <div class="logo "><a href="# ">Portfo<span>lio</span></a></div>
+                <ul class="menu">
+                    <li><a href="#home ">Home</a></li>
+                    <li><a href="#about ">About</a></li>
+                    <li><a href="https://techganesh.hashnode.dev/" target="_blank">Blog</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact ">Contact</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- navigation end -->
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="container ">
+            <div class="row full-screen ">
+                <div class="home-content ">
+                    <div class="block ">
+                        <h6>Hello, My Name is</h6>
+                        <h1>Ganesh Maharna</h1>
+                        <h3>Web Developer</h3>
+                        <div class="cv-btn ">
+                            <a href="MyCv.pdf">DownLoad CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- about section start -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center">
+                    <h1>About Me</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-img">
+                    <div class="img-box">
+                        <div class="shape-02">
+
+                        </div>
+                        <img src="images/profilepic.jpg" alt="">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h1>I'm Ganesh student of <span>JNU</span></h1>
+                    <p>
+                        I am a Front End developer familiar with latest technologies like Html5 Css3 and JavaScript. I
+                        am also familiar with Bootstrap5. I am a self-taught programmer and taking my coding passion to
+                        next level I recently joined Jnu Mca .I am a Web Development
+                        Enthusiast and building websites web applications since last six months.
+                    </p>
+                    <div class="cv-btn ">
+                        <a href="#contact">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- skills section start -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center">
+                    <h1>Skills</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="skills-content">
+                    <div class="card">
+                        <label for="">Html5</label>
+                        <div class="progress" data-text="80%">
+                            <div class="inner" style="width: 80%;">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <label for="">Css3</label>
+                        <div class="progress" data-text="60%">
+                            <div class="inner" style="width: 60%;">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <label for="">Javascript</label>
+                        <div class="progress" data-text="90%">
+                            <div class="inner" style="width: 90%;">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <label for="">jQuery</label>
+                        <div class="progress" data-text="40%">
+                            <div class="inner" style="width: 40%;">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <label for="">PhP</label>
+                        <div class="progress" data-text="56%">
+                            <div class="inner" style="width: 56%;">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <label for="">Bootstrap</label>
+                        <div class="progress" data-text="70%">
+                            <div class="inner" style="width: 70%;">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- skills section end -->
+
+    <!-- portfolio section start -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center">
+                    <h1>My Work</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="portfolio-filter">
+                    <button type="button" title="Show All Works" class="portfolio-filter-btn active"
+                        data-filter="all">All</button>
+                    <button type="button" title="Filter by Front-End" class="portfolio-filter-btn "
+                        data-filter="front-end">FrontEnd</button>
+                    <!-- <button type="button" title="Filter by Back-End" class="portfolio-filter-btn "
+                        data-filter="back-end">BackEnd</button> -->
+                    <button type="button" title="Filter by React" class="portfolio-filter-btn "
+                        data-filter="react">React</button>
+                    <!-- <button type="button" title="Filter by Bootstrap" class="portfolio-filter-btn"
+                        data-filter="Bootstrap">Bootstrap</button> -->
+                    <button type="button" title="Filter by Back-End" class="portfolio-filter-btn "
+                        data-filter="back-end">BackEnd</button>
+                </div>
+                <div class="filter-status">
+                    <p></p>
+                </div>
+            </div>
+            <div class="row portfolio-items">
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="react">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="images/ReactTodoList.jpg" alt="thumbnail">
+                        <button type="button" class="btn more-info-btn">more info</button>
+                    </div>
+                    <h3 class="portfolio-item-title">ReactTodoList</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>This is my first project in ReactJs . This is an app that allows users to add,edit and
+                                delete tasks they want to work on and also mark tasks as complete without deleting them
+                                . In this project I apply some basic concept of React i.e Hooks,Props and state etc.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Created -<span>5 July 2020</span></p>
+                            <p>Technologies Used -<span>ReactJs</span></p>
+                            <p>Role -<span>Front-End</span></p>
+                            <p>View Online -<span><a
+                                        href="https://62d64e56990e3f4dc7da7bec--flourishing-otter-b8cbca.netlify.app">www.domain.com</a></span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- portfolio item end -->
+
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="front-end">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="images/JsTodoList.jpg" alt="thumbnail">
+                        <button type="button" class="btn more-info-btn">more info</button>
+                    </div>
+                    <h3 class="portfolio-item-title">JsTodoList</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>JsTodoList is a project based on Html5 Css3 and Vanilla JavaScript. In this app user can
+                                add ,edit and delete tasks and also mark tasks as complete. In this app I learn how to
+                                use LocalStorage to get data ,set data etc.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Created -<span>10 Jun</span></p>
+                            <p>Technologies Used -<span>Html,Css,JavaScript</span></p>
+                            <p>Role -<span>Front-End</span></p>
+                            <p>View Online -<span><a
+                                        href="https://62bd9a6a2e292b07bc4a68e2--verdant-sawine-b31901.netlify.app">www.domain.com</a></span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- portfolio item end -->
+
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="back-end">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="images/laptop.jpg" alt="thumbnail">
+                        <button type="button" class="btn more-info-btn">more info</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Dummy Div</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a eaque excepturi iste
+                                natus adipisci quibusdam ratione ducimus quas sapiente deleniti error, voluptatem dicta
+                                accusamus explicabo voluptas odio voluptatibus
+                                rerum, quisquam tenetur omnis fugiat illum.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Created -<span>2 Oct 2020</span></p>
+                            <p>Technologies Used -<span>Html,Css</span></p>
+                            <p>Role -<span>Front-End</span></p>
+                            <p>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- portfolio item end -->
+
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="front-end">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="images/tempconverter.jpg" alt="thumbnail">
+                        <button type="button" class="btn more-info-btn">more info</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Temperature Converter</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Temperature Converter is a simple app and In this app we can simply convert Celcius to
+                                Farenheit and Farenheit to Celcius. In this app also I learn some basic concept of
+                                JavaScript like DOM.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Created -<span>8 Jan</span></p>
+                            <p>Technologies Used -<span>Html5,Css3,JavaScript</span></p>
+                            <p>Role -<span>Front-End</span></p>
+                            <p>View Online -<span><a
+                                        href="https://62d8dfcf7f3f7b6c2dce8485--gorgeous-elf-889267.netlify.app">www.domain.com</a></span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- portfolio item end -->
+
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="react">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="images/laptop.jpg" alt="thumbnail">
+                        <button type="button" class="btn more-info-btn">more info</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Dummy Div</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a eaque excepturi iste
+                                natus adipisci quibusdam ratione ducimus quas sapiente deleniti error, voluptatem dicta
+                                accusamus explicabo voluptas odio voluptatibus
+                                rerum, quisquam tenetur omnis fugiat illum.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Created -<span>2 Oct 2020</span></p>
+                            <p>Technologies Used -<span>Html,Css</span></p>
+                            <p>Role -<span>Front-End</span></p>
+                            <p>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- portfolio item end -->
+
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="front-end">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="images/CurrencyConverter.jpg" alt="thumbnail">
+                        <button type="button" class="btn more-info-btn">more info</button>
+                    </div>
+                    <h3 class="portfolio-item-title">CurrencyConverter</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>CurrencyConverter is a App based on Html5 Css3 and Vanilla JavaScript. This is the most
+                                interesting project I ever built. In this app you and convert any country currency to
+                                other . This uses real world API to fetch the data. In this project I learn some
+                                advanced concept of JavaScript like Fetch Api and Promises.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Created -<span>12 April 2022</span></p>
+                            <p>Technologies Used -<span>Html5,Css3,JavaScript</span></p>
+                            <p>Role -<span>Front-End</span></p>
+                            <p>View Online -<span><a
+                                        href="https://wondrous-cheesecake-94aa43.netlify.app">www.domain.com</a></span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- portfolio item end -->
+
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="back-end">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="images/laptop.jpg" alt="thumbnail">
+                        <button type="button" class="btn more-info-btn">more info</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Dummy Div</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a eaque excepturi iste
+                                natus adipisci quibusdam ratione ducimus quas sapiente deleniti error, voluptatem dicta
+                                accusamus explicabo voluptas odio voluptatibus
+                                rerum, quisquam tenetur omnis fugiat illum.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Created -<span>2 Oct 2020</span></p>
+                            <p>Technologies Used -<span>Html,Css</span></p>
+                            <p>Role -<span>Front-End</span></p>
+                            <p>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- portfolio item end -->
+
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="react">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="images/laptop.jpg" alt="thumbnail">
+                        <button type="button" class="btn more-info-btn">more info</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Dummy Div</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a eaque excepturi iste
+                                natus adipisci quibusdam ratione ducimus quas sapiente deleniti error, voluptatem dicta
+                                accusamus explicabo voluptas odio voluptatibus
+                                rerum, quisquam tenetur omnis fugiat illum.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Created -<span>2 Oct 2020</span></p>
+                            <p>Technologies Used -<span>Html,Css</span></p>
+                            <p>Role -<span>Front-End</span></p>
+                            <p>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- portfolio item end -->
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section end -->
+
+    <!-- portfolio-item-details popup start -->
+    <div class="portfolio-popup">
+        <!-- <div class="pp-overlay">
+
+        </div> -->
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <h2 class="pp-counter">
+
+                    </h2>
+                    <button type="button" title="close" class="close-btn pp-close-btn"></button>
+                    <div class="pp-thumbnail">
+                        <img src="" alt="pp-thumbnail" class="img-fluid">
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+                    <!-- <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a eaque excepturi iste natus adipisci quibusdam ratione ducimus quas sapiente deleniti error, voluptatem dicta accusamus explicabo voluptas odio voluptatibus rerum,
+                            quisquam tenetur omnis fugiat illum.</p>
+                    </div>
+                    <div class="general-info">
+                        <p>Created -<span>2 Oct 2020</span></p>
+                        <p>Technologies Used -<span>Html,Css</span></p>
+                        <p>Role -<span>Front-End</span></p>
+                        <p>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></p>
+                    </div> -->
+                </div>
+                <div class="pp-footer">
+                    <div class="pp-footer-left hidden">
+                        <button type="button" title="Prev Work" class="btn pp-prev-btn">
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                        <h3></h3>
+                        <img src="images/laptop1.jpg" alt="">
+                    </div>
+                    <div class="pp-footer-right hidden">
+                        <button type="button" title="Next Work" class="btn pp-next-btn">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <h3></h3>
+                        <img src="images/laptop1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio-item-details popup end -->
+
+    <!-- contact section start -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center">
+                    <h1>Find Me</h1>
+                </div>
+            </div>
+
+            <div class="row contact-container">
+                <!-- contact item start -->
+                <div class="contact-item">
+                    <div class="contact-item-inner">
+                        <i class="fas fa-phone"></i>
+                        <span>Phone</span>
+                        <p>+91 8847844932</p>
+                    </div>
+                </div>
+                <!-- contact item end -->
+                <!-- contact item start -->
+                <div class="contact-item">
+                    <div class="contact-item-inner">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                        <p>ganeshmaharna02@gmail.com</p>
+                    </div>
+                </div>
+                <!-- contact item end -->
+                <!-- contact item start -->
+                <div class="contact-item">
+                    <div class="contact-item-inner">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Address</span>
+                        <p>
+                            JnuCampus, NewDelhi 110067
+                        </p>
+                    </div>
+                </div>
+                <!-- contact item end -->
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form name="contact" data-netlify="true" action="POST">
+                        <div class="row">
+                            <div class="w-50">
+                                <div class="input-group">
+                                    <input type="text" name="name" id="name" placeholder="Name" class="input-control">
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" name="email" id="email" placeholder="Email"
+                                        class="input-control">
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" name="subject" id="subject" placeholder="Subject"
+                                        class="input-control">
+                                </div>
+                            </div>
+                            <div class="w-50">
+                                <div class="input-group">
+                                    <textarea class="input-control" placeholder="Message" name="message"
+                                        id="message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="submit-btn">
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer section start -->
+    <footer class="text-center">
+        <span>Created By <a href="#about">TechGanesh</a> | <span class="fa fa-copyright"></span>All rights
+            researved</span>
+    </footer>
+    <!-- footer section end -->
+
+
+
+
+    <script src="script.js "></script>
+</body>
+
+
+</html>
