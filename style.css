@@ -285,7 +285,8 @@
         .about-section .about-img .img-box img {
             width: 100%;
             display: block;
-            /* object-fit: cover; */
+            max-height: 450px;
+
         }
         
         .about-section .about-content {
