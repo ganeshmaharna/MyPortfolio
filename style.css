@@ -280,13 +280,14 @@
             flex: 0 0 33.33%;
             max-width: 33.33%;
             padding: 0 15px;
+            /* filter: blur(10px); */
         }
         
         .about-section .about-img .img-box img {
             width: 100%;
             display: block;
             max-height: 450px;
-
+            border-radius: 20px;
         }
         
         .about-section .about-content {
